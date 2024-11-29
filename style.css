@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #004080;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.background {
+    background: url('Building.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 24px;
+}
+h1 {
+    color: #004080;
+}
+
+p1 {
+    color: #ffffff;
+}
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #0044cc;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+p5 {
+       color: #0000ff;
+}
+p6 {
+       color: #000000;
+}
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
